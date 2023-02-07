@@ -44,7 +44,7 @@ public class Simple_ArrayList {
 		ArrayList<Object> arr2=new ArrayList<Object>(20);
 		
 		//generic type of arraylist works with wrapper classes only and not with primitive data types
-		
+		//s
 		ArrayList<String> arr3=new ArrayList<String>(20);
 		arr3.add("Value1");
 		arr3.add("Value2");
