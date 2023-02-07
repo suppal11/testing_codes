@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Shopping Cart App"
+	guice-stage="DEVELOPMENT">
+	<listeners>
+		<listener
+			class-name="com.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+	<test name="Shopping cart Tests" verbose="2">
+		<classes>
+			<class name="com.shopping.qa.testcases.LoginPageTest" />
+			<class name="com.shopping.qa.testcases.HomePageTest" />
+			<class name="com.shopping.qa.testcases.ShoppingRangePageTest" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite --> 
+
+
