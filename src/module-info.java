@@ -1,0 +1,2 @@
+module Coding_test {
+}
